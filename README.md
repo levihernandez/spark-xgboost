@@ -26,10 +26,10 @@ The current process explains how to run a custom Scala-Spark job with `spark-sub
 ![intelliJ new Project](img/new_project.png)
 
 * Define Artifacts
-![Define Artifacts](img/artifact.png)
+![Define Artifacts](img/artifacts.png)
 
 * Define Maven Version
-![define Maven](img/maven.png)
+![define Maven](img/maven3.png)
 
 ## Run project in Cloudera CDH 6.x
 
