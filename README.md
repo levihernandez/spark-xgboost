@@ -41,13 +41,14 @@ The current process explains how to run a custom Scala-Spark job with `spark-sub
     * data file: iris.csv
     * custom Spark code: spark-xgboost.jar
     * execute the following command: 
+    
     ```bash
     [demo@host1]$ sudo -u spark /usr/bin/spark-submit \
     --class com.cloudera.spark.ml.App \
     --master local[*] \
     hdfs:///user/admin/xgboost/spark-xgboost.jar \
     hdfs:///user/admin/xgboost/iris.csv
-```
+    ```
 
 * XGBoost job spark-submit output:
 
