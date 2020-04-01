@@ -49,7 +49,8 @@ The current process explains how to run a custom Scala-Spark job with `spark-sub
     hdfs:///user/admin/xgboost/iris.csv
 ```
 
-* Output:
+* XGBoost job spark-submit output:
+
 ```bash
 ...
 20/03/27 20:59:47 INFO scheduler.DAGScheduler: Job 4 finished: show at App.scala:83, took 0.236815 s
